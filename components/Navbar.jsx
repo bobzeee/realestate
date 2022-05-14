@@ -72,7 +72,7 @@ const Navbar = () => {
             />
             <MenuList>
               {DesktopMenu.map((menu, i) => (
-                <Link href={menu.link} passHref>
+                <Link key={i} href={menu.link} passHref>
                   <MenuItem icon={menu.Icon}>{menu.name}</MenuItem>
                 </Link>
               ))}

@@ -28,7 +28,7 @@ const Banner = ({
       <Text color="gray.700" fontSize="lg" paddingY="3">
         {desc1} <br /> {desc2}{" "}
       </Text>
-      <Link href={linkName}>
+      <Link passHref href={linkName}>
         <Button fontSize="xl">{buttonText}</Button>
       </Link>
     </Box>
